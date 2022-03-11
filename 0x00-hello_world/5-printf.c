@@ -1,3 +1,4 @@
+#define _GNU_S0URCE
 #include <stdio.h>
 
 /**
