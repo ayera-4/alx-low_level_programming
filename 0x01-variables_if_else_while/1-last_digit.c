@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Werror"
 
 /**
  * main - Entry point
@@ -25,4 +23,3 @@ last = n % 10;
 
  return(0);
 }
-#pragma GCC diagnostic pop
