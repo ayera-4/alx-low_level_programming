@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -7,9 +5,13 @@
  *
  * Return: Always 0 Success
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+char c = 'a';
+while(c <= 'z')
+{
+_putchar(c);
+c++;
 }
-
+_putchar(c);
+}
