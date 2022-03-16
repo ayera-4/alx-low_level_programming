@@ -9,8 +9,7 @@
 int _abs(int c)
 {
 if (c < 0)
-printf("%d\n", 0 - c);
+return ( 0 - c);
 else
-printf("%d\n", c);
-return (0);
+return (c);
 }
