@@ -2,7 +2,7 @@
 
 /**
  * _islower - returns 1 or 0
- * c - input
+ * 'c' - name of parameter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
