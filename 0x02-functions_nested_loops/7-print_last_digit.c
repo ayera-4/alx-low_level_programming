@@ -5,7 +5,7 @@
  * @c: input parameter
  * Return: Always 0 (Success)
  */
-in print_last_digit(int c)
+int print_last_digit(int c)
 {
 return (c % 10);
 }
