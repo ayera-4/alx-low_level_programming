@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints lowercase
  *
  * Return: Always 0 Success
  */
@@ -13,5 +13,5 @@ while(c <= 'z')
 _putchar(c);
 c++;
 }
-_putchar(c);
+_putchar('\n');
 }
