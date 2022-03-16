@@ -12,4 +12,5 @@ if (c < 0)
 printf("%d\n", 0 - c);
 else
 printf("%d\n", c);
+return (0);
 }
