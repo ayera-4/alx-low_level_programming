@@ -11,7 +11,7 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-int p = i * j;
+int product = i * j;
 if (i != 0)
 {
 _putchar(',');
