@@ -17,7 +17,7 @@ if (product == 0)
 _putchar('0');
 _putchar(' ');
 }
-else if (product >= 10)
+if (product >= 10)
 {
 _putchar((product / 10) + '0');
 _putchar((product % 10) + '0');
