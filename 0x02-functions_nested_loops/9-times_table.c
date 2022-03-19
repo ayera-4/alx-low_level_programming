@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,10 +11,13 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-printf("%d", i*j);
+_putchar(i*j + '0');
 if ( i < 9)
 {
-printf(", ");
+_putchar(',');
+ _putchar(' ');
 }
+}
+_putchar('\n');
 }
 }
