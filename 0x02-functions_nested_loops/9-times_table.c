@@ -14,7 +14,7 @@ for (j = 0; j <= 9; j++)
 int product = i * j;
 if (product == 0)
 {
-_putchar('0')
+  _putchar('0');
 }
 else if (product >= 10)
 {
