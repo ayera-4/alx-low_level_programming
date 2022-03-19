@@ -2,8 +2,8 @@
 
 /**
  * add - adds two integers
- * @a - input parameter
- * @b - input parameter
+ * @a: input parameter
+ * @b: input parameter
  * Return: Always 0 (Success)
  */
 int add(int a, int b)
