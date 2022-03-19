@@ -8,7 +8,6 @@
 void print_to_98(int n)
 {
 int i, s;
-int n = 1;
 if (n == 98)
 {
 _putchar(98 + '0');
