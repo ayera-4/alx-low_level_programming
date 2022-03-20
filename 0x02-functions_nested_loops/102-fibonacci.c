@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * sum - creates fibonacci sequence
  * main - Entry point
  * Return: Always 0 Success
  */
-int main(void);
+int main(void)
 {
 int i, nth;
 int number = 50;
@@ -21,8 +20,8 @@ if(i != (n - 3))
 {
 printf(", ");
 }  
- n1 = n2;
- n2 = nth;
+n1 = n2;
+n2 = nth;
 }
 printf("\n");
 return (0);
