@@ -15,22 +15,23 @@ _putchar(n + '0');
 else if (n < 98)
 {
 s = 98 - n;
-for (i = n; i < s+1; i++)
+for (i = n; i < s + n + 1; i++)
 {
 _putchar(i + '0');
-if (i != s)
+if (i != (s + n))
 {
 _putchar(',');
 _putchar(' ');
 }
 }
 }
-else
+else if (n > 90)
 {
 s = n - 98;
-for (i = 98; i < s+1; i++)
+for (i = s + 98; i >= 98; i--)
 {
-if (i != s){
+_putchar(i + '0');
+if (i != 98){
 _putchar(',');
 _putchar(' ');
 }
