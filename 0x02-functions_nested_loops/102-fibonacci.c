@@ -7,7 +7,7 @@
 int main(void)
 {
 int i, nth;
-int number = 50;
+int n = 50;
 int n1 = 1;
 int n2 = 2;
 printf("%d, ", n1);
