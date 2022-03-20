@@ -19,5 +19,5 @@ else if ((i % 5) == 0)
 sum += i;
 }
 }
-printf("%d", sum);
+return (sum);
 }
