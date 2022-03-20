@@ -4,7 +4,7 @@
  * main - Entry point
  * Return: Always 0 Success
  */
-void natural(void)
+int main(void)
 {
 int i;
 int sum = 0;
@@ -20,4 +20,5 @@ sum += i;
 }
 }
 printf("%d", sum);
+return (0);
 }
