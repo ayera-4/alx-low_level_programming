@@ -4,7 +4,7 @@
  * main - Entry point
  * Return: Always 0 Success
  */
-int main(void)
+void natural(void)
 {
 int i;
 int sum = 0;
@@ -19,5 +19,5 @@ else if ((i % 5) == 0)
 sum += i;
 }
 }
-return (sum);
+printf("%d", sum);
 }
