@@ -2,12 +2,13 @@
 
 /**
  * print_to_98 - prints natural numbers to 98
- * @n: input parameter
+ * @a: input parameter
  * Return: Always 0 
  */
-void print_to_98(int n)
+void print_to_98(int a)
 {
 int i, s;
+int n = a;
 if (n == 98)
 {
 _putchar(n + '0');
