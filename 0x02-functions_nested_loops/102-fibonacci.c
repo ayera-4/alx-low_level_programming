@@ -11,11 +11,11 @@ int n = 50;
 unsigned long n1 = 1;
 unsigned long n2 = 2;
 unsigned long nth = n1 + n2;
-printf("%d, ", n1);
-printf("%d, ", n2);
+printf("%lu, ", n1);
+printf("%lu, ", n2);
 for (i = 0; i < n - 2; i++)
 {
-printf("%d", nth);
+printf("%lu", nth);
 if (i != n - 3)
 {
 printf(", ");
