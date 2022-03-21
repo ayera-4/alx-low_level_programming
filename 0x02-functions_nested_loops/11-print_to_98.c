@@ -1,40 +1,36 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - prints natural numbers to 98
- * @a: input parameter
+ * @n: input parameter
  * Return: Always 0 
  */
-void print_to_98(int a)
+void print_to_98(int n)
 {
-int i, s;
-int n = a;
+int i;
 if (n == 98)
 {
-_putchar(n + '0');
+printf("%d", n);
 }
 else if (n < 98)
 {
-s = 98 - n;
-for (i = n; i < s + n + 1; i++)
+for (i = n; i <= 98; i++)
 {
-_putchar(i + '0');
-if (i != (s + n))
+printf("%d", i);
+if (i != 98)
 {
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
 }
 }
 else if (n > 90)
 {
-s = n - 98;
-for (i = s + 98; i >= 98; i--)
+for (i = n; i >= 98; i--)
 {
-_putchar(i + '0');
+printf("%d", i);
 if (i != 98){
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
 }
 }
