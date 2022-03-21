@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int i, nth;
+int i;
 int n = 50;
-int n1 = 1;
-int n2 = 2;
-nth = n1 + n2;
+unsigned long n1 = 1;
+unsigned long n2 = 2;
+unsigned long nth = n1 + n2;
 printf("%d, ", n1);
 printf("%d, ", n2);
 for (i = 0; i < n - 2; i++)
