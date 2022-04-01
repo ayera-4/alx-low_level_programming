@@ -7,7 +7,7 @@
  * @argv: array of cmd input strings
  * Return: Always 0
  */
-int main(int argc, char *args[])
+int main(int argc, char *argv[])
 {
 if (argc == 3)
 {
