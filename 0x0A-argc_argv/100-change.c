@@ -11,38 +11,52 @@
  */
 int main(int argc, char *argv[])
 {
-int j = 0, i = 1, coins, change = 0, a;
-int cents[5] = {25, 10, 5, 2, 1};
-if (argc == 2)
+if (argc != 2)
 {
-for (j = 0; argv[i][j] != '\0'; j++)
+printf("Error\n");
+return (1);
+}
+if (atoi(argv[1]) >= 0)
 {
-if (argv[i][j] == '-')
+int c = 0;
+checker(atoi(argv[1]), c);
+}
+else if (atoi(argv[1]) < 0)
 {
 printf("0\n");
-return (0);
-}
-if (!(isdigit(argv[i][j])))
-{
-printf("Error\n");
-return (1);
-}
-}
-coins = atoi(argv[i]);
-for (a = 0; a < 5; a++)
-{
-while (coins >= cents[a])
-{
-coins -= cents[a];
-change += 1;
-}
-}
-printf("%d\n", change);
-}
-else
-{
-printf("Error\n");
-return (1);
 }
 return (0);
+}
+
+/**
+ * checker - entry function
+ * @c : variable
+ * @b : variable
+ */
+void checker(int c, int b)
+{
+if (c >= 25)
+{
+checker(c - 25, b + 1);
+}
+else if (c >= 10)
+{
+checker(c - 10, b + 1);
+}
+else if (c >= 5)
+{
+checker(c - 5, b + 1);
+}
+else if (c >= 2)
+{
+checker(c - 2, b + 1);
+}
+else if (c >= 1)
+{
+checker(c - 1, b + 1);
+}
+else if (c == 0)
+{
+printf("%d\n", b);
+}
 }
