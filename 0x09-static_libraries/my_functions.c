@@ -1,5 +1,38 @@
 #include "main.h"
 
+/**
+ * _putchar - prints
+ * _islower - lowercase
+ * _isalpha - alphabet
+ * _abs - absolute
+ * _isupper - uppercase
+ * _isdigit - digits
+ * _strlen - string length
+ * _puts - prints
+ * _strcpy - string copy
+ * _atoi - convert string to int
+ * _strcat - appends string
+ * _strncat - appends number of strings
+ * _strncpy - copies number of strings
+ * _strcmp - compares strings
+ * _memset - sets memory
+ * _memcpy - copies memory
+ * _strchr - convert string to characters
+ * _strspn - returns length
+ * _strpbrk - returns pointer
+ * _strstr - returns pointers
+ * @c: input parameter
+ * @n: input parameter
+ * @s: input string
+ * @dest: input string
+ * @src: input string
+ * @s1: input string
+ * @s2: input string
+ * @b: input parameter
+ * @accept: input string
+ * @haystack: input string
+ * @needle: input string
+ */
 int _putchar(char c)
 {
 }
