@@ -1,6 +1,4 @@
 #include "holbertion"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * str_concat - concatenates two strings
@@ -9,32 +7,42 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-char *concat_str;
-int index, concat_index = 0, len = 0;
-if (s1 == NULL)
+char *concat;
+unsigned int len1 = 0;
+unsigned int len2 = 0;
+if (s1)
+{
+while (s1[len1])
+++len1;
+}
+else
 {
 s1 = "";
 }
-if (s2 == NULL)
+if (s2)
+{
+while (s2[len2])
+++len2;
+}
+else
 {
 s2 = "";
 }
-for (index = 0; s1[index] || s2[index]; index++)
-{
-len++;
-concat_str = malloc(sizeof(char) * len);
-}
-if (concat_str == NULL)
+concat = malloc(sizeof(char) * (len1 + len2 + 1));
+if (!concat)
 {
 return (NULL);
 }
-for (index = 0; s1[index]; index++)
+if (s1)
 {
-concat_str[concat_index++] = s1[index];
+for (len1 = 0; s1[len1]; ++len1)
+concat[len1] = s1[len1];
 }
-for (index = 0; s2[index]; index++)
+if (s2)
 {
-concat_str[concat_index++] = s2[index];
+for (len2 = 0; s2[len2]; ++len2)
+concat[len1 + len2] = s2[len2];
 }
-return (concat_str);
+concat[len1 + len2] = '\0';
+return (concat);
 }
