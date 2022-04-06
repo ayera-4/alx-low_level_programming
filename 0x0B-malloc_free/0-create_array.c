@@ -15,7 +15,7 @@ if (size == 0)
 return (NULL);
 }
 s = malloc(sizeof(char) * size);
-if (s === NULL)
+if (s == NULL)
 {
 return (NULL);
 }
