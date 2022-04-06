@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * create_array - create array
+ * create_array - create array of characters
  * @size: size of the array
  * @c: input parameter
+ * Return: array pointer
  */
 char *create_array(unsigned int size, char c)
 {
