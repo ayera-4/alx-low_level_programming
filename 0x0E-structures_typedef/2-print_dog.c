@@ -14,7 +14,7 @@ if (d->name == NULL)
 d->name = "(nil)";
 }
 printf("Name: %s\n", d->name);
-if (d->age != NULL)
+if (d->age != 0)
 {
 printf("Age: %.6f\n", d->age);
 }
