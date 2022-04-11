@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton"
+
 /**
  * main - Entry point
  * Return: 0
