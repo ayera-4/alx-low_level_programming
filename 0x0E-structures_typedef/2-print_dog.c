@@ -16,18 +16,15 @@ if (d->name == NULL)
 {
 d->name = "(nil)";
 }
-printf("Name: %s\n", d->name);
 if (d->age == NULL)
 {
 printf("Age: (nil)\n");
-}
-else
-{
-printf("Age: %.6f\n", d->age);
 }
 if (d->owner == NULL)
 {
 d->owner = "(nil)";
 }
+printf("Name: %s\n", d->name);
+printf("Age: %.6f\n", d->age);
 printf("Owner: %s\n", d->owner);
 }
