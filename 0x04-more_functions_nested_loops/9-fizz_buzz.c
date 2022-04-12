@@ -11,19 +11,15 @@ for (i = 1; i <= 100; i++)
 {
 if (((i % 3) == 0)) && ((i % 5) == 0)))
 {
-printf("FizzBuzz ");
-continue;
-}
-if((i % 3) == 0)
-{
-printf("Fizz ");
-continue;
-}
+if ((i % 3) == 0)
+printf("Fizz");
 if ((i % 5) == 0)
-{
-printf("Buzz ");
-continue;
+printf("Buzz");
 }
-printf("%d ", i);
+else
+printf("%d", i);
+if (i != 100)
+printf(" ");
 }
+printf("\n");
 }
