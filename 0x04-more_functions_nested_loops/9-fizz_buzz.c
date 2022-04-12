@@ -1,10 +1,11 @@
-#include <stdlib.h>
+#include "main.h"
 #include <stdio.h>
 
 /**
  * main - prints from 1 to 100
+ * Return: 0
  */
-void main(void)
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -22,4 +23,5 @@ if (i != 100)
 printf(" ");
 }
 printf("\n");
+return (0);
 }
