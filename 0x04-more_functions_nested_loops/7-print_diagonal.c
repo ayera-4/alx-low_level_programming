@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_line - prints straight line
+ * print_diagonal - prints diagonal line
  * @n: int parameter
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 if (n > 0)
 {
