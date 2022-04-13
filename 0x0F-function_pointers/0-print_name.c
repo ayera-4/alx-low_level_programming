@@ -4,6 +4,7 @@
 /**
  * print_name - prints a name
  * @name: int parameter
+ * @f: the function to call to print name
  */
 void print_name(char *name, void (*f)(char *))
 {
