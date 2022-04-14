@@ -1,6 +1,6 @@
 #include "variadic_functions"
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * print_strings - print strings
