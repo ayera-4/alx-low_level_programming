@@ -9,12 +9,16 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-if (n != 0)
+if (n == 0)
+{
+return (0);
+}
+else
 {
 va_list arg;
 int sum = 0;
 unsigned int i;
-va_tart(arg, n);
+va_start(arg, n);
 for (i = 0; i < n; i++)
 {
 sum += va_arg(arg, int);
@@ -22,6 +26,4 @@ sum += va_arg(arg, int);
 va_end(arg);
 return (sum);
 }
-else
-return (0);
 }
