@@ -1,0 +1,15 @@
+#include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
+
+/**
+ * print_all - prints all datatypes
+ * @format: input parameter
+ * Return: 0
+ */
+void print_all(const char * const format, ...)
+{
+  va_list arg;
+  int i;
+  va_start(arg, format);
+  
