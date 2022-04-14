@@ -57,7 +57,7 @@ printf("%s", str);
  */
 void print_all(const char * const format, ...)
 {
-va_list arg;
+va_list all;
 unsigned int i, j;
 char *separator = "";
 f ops[] = {
@@ -66,7 +66,7 @@ f ops[] = {
 {"f", op_f},
 {"s", op_s},
 };
-va_start(arg, format);
+va_start(all, format);
 i = 0;
 while (format && format[i])
 {
