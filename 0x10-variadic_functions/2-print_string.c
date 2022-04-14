@@ -27,4 +27,5 @@ if (i != n - 1)
 printf("%s", separator);
 }
 printf("\n");
+va_end(arg);
 }
