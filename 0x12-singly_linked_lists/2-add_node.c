@@ -15,7 +15,7 @@ list_t *new;
 unsigned int len = 0;
 while (str[len])
 {
-len++
+len++;
 }
 new = malloc(sizeof(list_t));
 if (!new)
@@ -26,5 +26,5 @@ new->str = strdup(str);
 new->len = len;
 new->next = (*head);
 (*head) = new;
-return(*head);
+return (*head);
 }
