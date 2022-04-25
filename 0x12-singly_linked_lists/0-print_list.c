@@ -24,5 +24,5 @@ printf("%s\n", ptr->str);
 }
 count++;
 }
-printf("-> %lu elements\n", count);
+return (count);
 }
