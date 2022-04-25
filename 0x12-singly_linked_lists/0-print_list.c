@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * print_list - print elements of the list_t list
+ *print_list - print elements of the list_t list
  * @h: input structure
  * Return: number of nodes in the list
  */
@@ -16,7 +16,9 @@ while (h != NULL)
 if (h->str == NULL)
 printf("[0] (nil)\n");
 else
+{
 printf("[%u] %s\n", h->len, h->str);
+}
 h = h->next;
 count++;
 }
