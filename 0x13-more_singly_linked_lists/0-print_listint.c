@@ -14,6 +14,7 @@ h = malloc(sizeof(listint_t));
 while(h)
 {
 count++;
+printf("%d\n", h->n);
 h = h->next;
 }
 return (count);
