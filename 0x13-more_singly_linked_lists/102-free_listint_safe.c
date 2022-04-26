@@ -2,7 +2,7 @@
 
 /**
  * free_listint_safe - frees a list
- * @h  pointer to first node 
+ * @h: pointer to first node 
  * Return: number of elements in freed list
  */
 size_t free_listint_safe(listint_t **h)
