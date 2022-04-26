@@ -6,7 +6,7 @@
 /**
  * struct listint_s -singly linked list
  * @n: integer
- * @next: poits to the next node 
+ * @next: poits to the next node
  * Description: singly linked list node structure
  */
 typedef struct listint_s
