@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * free_listint - frees a list
+ * free_listint2 - frees a list
  * @head: pointer to list
  */
-void free_listint(listint_t **head)
+void free_listint2(listint_t **head)
 {
 listint_t *temp;
 while (*head)
