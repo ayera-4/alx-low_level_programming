@@ -11,6 +11,8 @@ size_t num = 0;
 long int check;
 if (!head)
 exit(98);
+else
+{
 while (head)
 {
 check = head - head->next;
@@ -25,4 +27,5 @@ break;
 }
 }
 return (num);
+}
 }
