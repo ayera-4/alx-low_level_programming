@@ -13,7 +13,7 @@ while (head)
 {
 check = head - head->next;
 num++;
-printf("[%p} %d\n", (void *)head, head->n);
+printf("[%p] %d\n", (void *)head, head->n);
 if (check > 0)
 head = head->next;
 else
