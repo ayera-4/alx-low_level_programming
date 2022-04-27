@@ -9,6 +9,8 @@ size_t print_listint_safe(const listint_t *head)
 {
 size_t num = 0;
 long int check;
+if (!head)
+exit(98);
 while (head)
 {
 check = head - head->next;
