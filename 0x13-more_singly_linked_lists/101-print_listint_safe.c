@@ -18,7 +18,7 @@ if (check > 0)
 head = head->next;
 else
 {
-printf("-> [%p] %d\n", (void *)head->next, head->next->)
+printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 break;
 }
 }
