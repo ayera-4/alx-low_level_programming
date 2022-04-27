@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -27,6 +26,6 @@ printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 break;
 }
 }
-return (num);
 }
+return (num);
 }
